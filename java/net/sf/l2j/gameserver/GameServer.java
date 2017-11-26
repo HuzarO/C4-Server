@@ -518,7 +518,7 @@ public class GameServer
 		Server.SERVER_MODE = Server.MODE_GAMESERVER;
 //      Local Constants
 		final String LOG_FOLDER = "log"; // Name of folder for log file
-		final String LOG_NAME   = "./log.cfg"; // Name of log file
+		final String LOG_NAME   = "dist/login/log.cfg"; // Name of log file
 		
 		/*** Main ***/
 		// Create log folder

@@ -45,7 +45,7 @@ public class SevenSignsFestival implements SpawnListener
     protected static Logger _log = Logger.getLogger(SevenSignsFestival.class.getName());
     private static SevenSignsFestival _instance;
     
-    public static final String FESTIVAL_DATA_FILE = "config/signs.properties";
+    public static final String FESTIVAL_DATA_FILE = "dist/game/config/signs.properties";
     
     /**
      * These length settings are important! :)

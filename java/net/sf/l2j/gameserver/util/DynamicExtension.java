@@ -34,7 +34,7 @@ import java.util.logging.Logger;
 public class DynamicExtension {
 	private static Logger log = Logger.getLogger(DynamicExtension.class.getCanonicalName());
 	private JarClassLoader classLoader;
-	private static final String CONFIG = "config/extensions.properties";
+	private static final String CONFIG = "dist/game/config/extensions.properties";
 	private Properties prop;
 	private ConcurrentHashMap<String, Object> loadedExtensions;
 	private static DynamicExtension instance;

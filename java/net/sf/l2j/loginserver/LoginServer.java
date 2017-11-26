@@ -60,7 +60,7 @@ public class LoginServer extends FloodProtectedListener
     	Server.SERVER_MODE = Server.MODE_LOGINSERVER;
 //      Local Constants
 		final String LOG_FOLDER = "log"; // Name of folder for log file
-		final String LOG_NAME   = "./log.cfg"; // Name of log file
+		final String LOG_NAME   = "dist/login/log.cfg"; // Name of log file
 		
 		/*** Main ***/
 		// Create log folder
@@ -144,7 +144,7 @@ public class LoginServer extends FloodProtectedListener
         
         try
         {
-            bannedFile =  new FileInputStream(new File("./banned_ip.cfg"));
+            bannedFile =  new FileInputStream(new File("dist/login/banned_ip.cfg"));
             if (bannedFile != null)
             {
                 int count = 0;

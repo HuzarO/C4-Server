@@ -532,42 +532,42 @@ public final class Config
      * <br>This may help servers with large amounts of players recieving error messages related to 
      * the <i>L2ObjectHashMap</i> and <i>L2ObejctHashSet</i> classes.*/
     /** Properties file for game server (connection and ingame) configurations */
-    public static final String  CONFIGURATION_FILE          = "./config/server.properties";
+    public static final String  CONFIGURATION_FILE          = "dist/game/config/server.properties";
     /** Properties file for game server options */
-    public static final String  OPTIONS_FILE                = "./config/options.properties";
+    public static final String  OPTIONS_FILE                = "dist/game/config/options.properties";
     /** Properties file for login server configurations */
-    public static final String  LOGIN_CONFIGURATION_FILE    = "./config/loginserver.properties";
+    public static final String  LOGIN_CONFIGURATION_FILE    = "dist/game/config/loginserver.properties";
     /** Properties file for the ID factory */
-    public static final String  ID_CONFIG_FILE				= "./config/idfactory.properties";
+    public static final String  ID_CONFIG_FILE				= "dist/game/config/idfactory.properties";
     /** Properties file for other configurations */
-    public static final String  OTHER_CONFIG_FILE			= "./config/other.properties";
+    public static final String  OTHER_CONFIG_FILE			= "dist/game/config/other.properties";
     /** Properties file for rates configurations */
-    public static final String  RATES_CONFIG_FILE			= "./config/rates.properties";
+    public static final String  RATES_CONFIG_FILE			= "dist/game/config/rates.properties";
     /** Properties file for alternative configuration */
-    public static final String  ALT_SETTINGS_FILE			= "./config/altsettings.properties";
+    public static final String  ALT_SETTINGS_FILE			= "dist/game/config/altsettings.properties";
     /** Properties file for PVP configurations */
-    public static final String  PVP_CONFIG_FILE				= "./config/pvp.properties";
+    public static final String  PVP_CONFIG_FILE				= "dist/game/config/pvp.properties";
     /** Properties file for GM access configurations */
-    public static final String  GM_ACCESS_FILE				= "./config/GMAccess.properties";
+    public static final String  GM_ACCESS_FILE				= "dist/game/config/GMAccess.properties";
     /** Properties file for telnet configuration */
-    public static final String  TELNET_FILE					= "./config/telnet.properties";
+    public static final String  TELNET_FILE					= "dist/game/config/telnet.properties";
     /** Properties file for l2j server version configurations */ 
-    public static final String  SERVER_VERSION_FILE				= "./config/l2j-version.properties";
+    public static final String  SERVER_VERSION_FILE				= "dist/game/config/l2j-version.properties";
     /** Properties file for l2j datapack version configurations */ 
-    public static final String  DATAPACK_VERSION_FILE             = "./config/l2jdp-version.properties";
+    public static final String  DATAPACK_VERSION_FILE             = "dist/game/config/l2jdp-version.properties";
     /** Properties file for siege configuration */
-    public static final String  SIEGE_CONFIGURATION_FILE	= "./config/siege.properties";
+    public static final String  SIEGE_CONFIGURATION_FILE	= "dist/game/config/siege.properties";
     /** XML file for banned IP */
-    public static final String  BANNED_IP_XML				= "./config/banned.xml";
+    public static final String  BANNED_IP_XML				= "dist/game/config/banned.xml";
     /** Text file containing hexadecimal value of server ID */
-    public static final String  HEXID_FILE					= "./config/hexid.txt";
+    public static final String  HEXID_FILE					= "dist/game/config/hexid.txt";
     /** Properties file for alternative configure GM commands access level.<br>
      * Note that this file only read if "AltPrivilegesAdmin = True" */
-    public static final String  COMMAND_PRIVILEGES_FILE     = "./config/command-privileges.properties";
+    public static final String  COMMAND_PRIVILEGES_FILE     = "dist/game/config/command-privileges.properties";
     /** Properties file for AI configurations */
-    public static final String  AI_FILE     				= "./config/ai.properties";
+    public static final String  AI_FILE     				= "dist/game/config/ai.properties";
     /** Properties file for 7 Signs Festival */
-    public static final String  SEVENSIGNS_FILE             = "./config/sevensigns.properties";
+    public static final String  SEVENSIGNS_FILE             = "dist/game/config/sevensigns.properties";
     
     public static boolean CHECK_KNOWN;
     

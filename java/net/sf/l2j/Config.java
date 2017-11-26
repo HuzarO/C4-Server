@@ -536,7 +536,7 @@ public final class Config
     /** Properties file for game server options */
     public static final String  OPTIONS_FILE                = "dist/game/config/options.properties";
     /** Properties file for login server configurations */
-    public static final String  LOGIN_CONFIGURATION_FILE    = "dist/game/config/loginserver.properties";
+    public static final String  LOGIN_CONFIGURATION_FILE    = "./config/loginserver.properties";
     /** Properties file for the ID factory */
     public static final String  ID_CONFIG_FILE				= "dist/game/config/idfactory.properties";
     /** Properties file for other configurations */
@@ -550,7 +550,7 @@ public final class Config
     /** Properties file for GM access configurations */
     public static final String  GM_ACCESS_FILE				= "dist/game/config/GMAccess.properties";
     /** Properties file for telnet configuration */
-    public static final String  TELNET_FILE					= "dist/game/config/telnet.properties";
+    public static final String  TELNET_FILE					= "./config/telnet.properties";
     /** Properties file for l2j server version configurations */ 
     public static final String  SERVER_VERSION_FILE				= "dist/game/config/l2j-version.properties";
     /** Properties file for l2j datapack version configurations */ 
@@ -558,7 +558,7 @@ public final class Config
     /** Properties file for siege configuration */
     public static final String  SIEGE_CONFIGURATION_FILE	= "dist/game/config/siege.properties";
     /** XML file for banned IP */
-    public static final String  BANNED_IP_XML				= "dist/game/config/banned.xml";
+    public static final String  BANNED_IP_XML				= "./config/banned.xml";
     /** Text file containing hexadecimal value of server ID */
     public static final String  HEXID_FILE					= "dist/game/config/hexid.txt";
     /** Properties file for alternative configure GM commands access level.<br>

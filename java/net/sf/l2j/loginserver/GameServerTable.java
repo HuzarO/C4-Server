@@ -169,7 +169,7 @@ public class GameServerTable
 		InputStream in = null;
 		try
 		{
-			in = new FileInputStream("servername.xml");
+			in = new FileInputStream("./../game/data/servername.xml");
 			XmlPullParserImpl xpp = new XmlPullParserImpl();
 			xpp.setInput(in);
 			for (int e = xpp.getEventType(); e != XmlPullParserImpl.END_DOCUMENT; e = xpp.next())
